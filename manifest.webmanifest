@@ -1,25 +1,16 @@
 {
   "name": "צ׳אנס — ניתוח והרכבה",
   "short_name": "צ׳אנס",
-  "description": "ניתוח, הרכבה ומעקב צ׳אנס — מפעל הפיס",
-  "start_url": "./index.html",
-  "display": "standalone",
-  "background_color": "#0c0a09",
-  "theme_color": "#9f1239",
   "lang": "he",
   "dir": "rtl",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0c0a09",
+  "theme_color": "#0c0a09",
   "icons": [
-    {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }
